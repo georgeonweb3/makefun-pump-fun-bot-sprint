@@ -62,9 +62,9 @@ export const PARAMS = {
   /** Trailing: sell when price gives back this share of the peak. */
   TRAIL_GIVEBACK: 0.08,
   /** Max hold, in slots since the buy filled. */
-  MAX_HOLD_SLOTS: 600,
+  MAX_HOLD_SLOTS: 400,
   /** Stall: after this many slots, sell if the trade is not in profit. */
-  STALL_SLOTS: 150,
+  STALL_SLOTS: 100,
   /** Drawdown guard: halt entries when equity is down this far from peak. */
   GUARD_DD: 0.2,
   /** Buy slippage cap (bps). Tight: a fill jumping through the latency is refused for free. */
